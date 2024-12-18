@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header */
+
+.headertop {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #298473;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    padding-top: 30px;
+    margin: 10px;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+header ul li a:hover {
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Profil */
+
+.profil:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
+.profil {
+    text-align: left;
+    color: white;
+    width: 30%;
+    padding-top: 30px;
+    margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
+    
+}
+
+.profil h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.profil a {
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.profil a:hover {
+    color: #0094ee;
+}
+
+/* Expérience */
+
+.experience:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
+.experience {
+    text-align: left;
+    color: white;
+    width: 30%;
+    padding-top: 30px;
+    margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
+}
+
+.experience h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.experience a {
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.experience a:hover {
+    color: #0094ee;
+}
+
+/*Job D'été*/
+.ete:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
+.ete{
+    text-align: left;
+    color: white;
+    width: 30%;
+    padding-top: 30px;
+    margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
+}
+
+.ete h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.ete a {
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+/*competences*/
+.competences:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
+.competences{
+    text-align: left;
+    color: white;
+    width: 30%;
+    padding-top: 30px;
+    margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
+}
+
+.competences h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.competences a {
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.competences a{
+    color: white;
+}
+
+/*Soft Skills*/
+.soft:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
+.soft{
+    text-align: left;
+    color: white;
+    width: 30%;
+    padding-top: 30px;
+    margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
+}
+
+.soft h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.soft a{
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+
+/*centre d'interet*/
+.centre:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
+.centre{
+    text-align: left;
+    color: white;
+    width: 30%;
+    padding-top: 30px;
+    margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
+}
+
+.centre h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.centre a{
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.interet {
+    display: flex;
+    justify-content: center;    
+}
+
+.interet img {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+/*formation*/
+
+.formations:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
+.formations{
+    text-align: left;
+    color: white;
+    width: 30%;
+    padding-top: 30px;
+    margin: auto;
+    background-color:#298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
+}
+
+.formations h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.formations a{
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Footer */
+footer {
+    background-color: #298473;
+    color: rgb(4, 3, 3);
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+footer .social-icons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer .social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.2);
+}
+
+
