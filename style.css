@@ -25,7 +25,6 @@ header {
     background-color: #298473;
     padding: 30px;
     margin-bottom: 30px;
-
 }
 
 header ul {
@@ -53,13 +52,15 @@ header ul li a:hover {
     background-color: white;
 }
 
-/* Profil */
+/* Profil, Expérience, Job d'été, etc. */
 
-.profil:hover {
-    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
-}
-
-.profil {
+.profil,
+.experience,
+.ete,
+.competences,
+.soft,
+.centre,
+.formations {
     text-align: left;
     color: white;
     width: 30%;
@@ -71,216 +72,59 @@ header ul li a:hover {
     padding: 10px;
     margin-bottom: 30px;
     border: 10px solid hsla(0,0%,100%,.5);
-    
 }
 
-.profil h2 {
+.profil:hover,
+.experience:hover,
+.ete:hover,
+.competences:hover,
+.soft:hover,
+.centre:hover,
+.formations:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
+.profil h2,
+.experience h2,
+.ete h2,
+.competences h2,
+.soft h2,
+.centre h2,
+.formations h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.profil a {
+.profil a,
+.experience a,
+.ete a,
+.competences a,
+.soft a,
+.centre a,
+.formations a {
     color: white;
     transition: all 0.4s ease-in-out;
 }
 
-.profil a:hover {
+.profil a:hover,
+.experience a:hover,
+.ete a:hover,
+.competences a:hover,
+.soft a:hover,
+.centre a:hover,
+.formations a:hover {
     color: #0094ee;
-}
-
-/* Expérience */
-
-.experience:hover {
-    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
-}
-
-.experience {
-    text-align: left;
-    color: white;
-    width: 30%;
-    padding-top: 30px;
-    margin: auto;
-    background-color: #298473;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    padding: 10px;
-    margin-bottom: 30px;
-    border: 10px solid hsla(0,0%,100%,.5);
-}
-
-.experience h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.experience a {
-    color: white;
-    transition: all 0.4s ease-in-out;
-}
-
-.experience a:hover {
-    color: #0094ee;
-}
-
-/*Job D'été*/
-.ete:hover {
-    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
-}
-
-.ete{
-    text-align: left;
-    color: white;
-    width: 30%;
-    padding-top: 30px;
-    margin: auto;
-    background-color: #298473;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    padding: 10px;
-    margin-bottom: 30px;
-    border: 10px solid hsla(0,0%,100%,.5);
-}
-
-.ete h2{
-    margin-bottom: 10px;
-    text-align: center;
-}
-.ete a {
-    color: white;
-    transition: all 0.4s ease-in-out;
-}
-
-/*competences*/
-.competences:hover {
-    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
-}
-
-.competences{
-    text-align: left;
-    color: white;
-    width: 30%;
-    padding-top: 30px;
-    margin: auto;
-    background-color: #298473;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    padding: 10px;
-    margin-bottom: 30px;
-    border: 10px solid hsla(0,0%,100%,.5);
-}
-
-.competences h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.competences a {
-    color: white;
-    transition: all 0.4s ease-in-out;
-}
-
-.competences a{
-    color: white;
-}
-
-/*Soft Skills*/
-.soft:hover {
-    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
-}
-
-.soft{
-    text-align: left;
-    color: white;
-    width: 30%;
-    padding-top: 30px;
-    margin: auto;
-    background-color: #298473;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    padding: 10px;
-    margin-bottom: 30px;
-    border: 10px solid hsla(0,0%,100%,.5);
-}
-
-.soft h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.soft a{
-    color: white;
-    transition: all 0.4s ease-in-out;
-}
-
-
-/*centre d'interet*/
-.centre:hover {
-    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
-}
-
-.centre{
-    text-align: left;
-    color: white;
-    width: 30%;
-    padding-top: 30px;
-    margin: auto;
-    background-color: #298473;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    padding: 10px;
-    margin-bottom: 30px;
-    border: 10px solid hsla(0,0%,100%,.5);
-}
-
-.centre h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.centre a{
-    color: white;
-    transition: all 0.4s ease-in-out;
 }
 
 .interet {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .interet img {
     margin: 15px;
     width: 50px;
     height: 50px;
-}
-
-/*formation*/
-
-.formations:hover {
-    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
-}
-
-.formations{
-    text-align: left;
-    color: white;
-    width: 30%;
-    padding-top: 30px;
-    margin: auto;
-    background-color:#298473;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    padding: 10px;
-    margin-bottom: 30px;
-    border: 10px solid hsla(0,0%,100%,.5);
-}
-
-.formations h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.formations a{
-    color: white;
-    transition: all 0.4s ease-in-out;
 }
 
 /* Footer */
@@ -311,4 +155,85 @@ footer .social-icons img:hover {
     transform: scale(1.2);
 }
 
+/* Responsive Design */
 
+@media (max-width: 1024px) {
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        padding-top: 15px;
+    }
+
+    .profil,
+    .experience,
+    .ete,
+    .competences,
+    .soft,
+    .centre,
+    .formations {
+        width: 45%;
+    }
+
+    .interet img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        padding-top: 10px;
+    }
+
+    .profil,
+    .experience,
+    .ete,
+    .competences,
+    .soft,
+    .centre,
+    .formations {
+        width: 80%;
+    }
+
+    .interet img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        padding-top: 5px;
+    }
+
+    .profil,
+    .experience,
+    .ete,
+    .competences,
+    .soft,
+    .centre,
+    .formations {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .interet img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
